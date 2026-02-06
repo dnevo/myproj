@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/myproj/__init__.py
+src/myproj/device.py
+src/myproj/tiny_train.py
+src/myproj.egg-info/PKG-INFO
+src/myproj.egg-info/SOURCES.txt
+src/myproj.egg-info/dependency_links.txt
+src/myproj.egg-info/requires.txt
+src/myproj.egg-info/top_level.txt
+tests/test_smoke.py

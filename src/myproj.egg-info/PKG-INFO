@@ -1,0 +1,20 @@
+Metadata-Version: 2.4
+Name: myproj
+Version: 0.1.0
+Summary: Minimal Colab + GitHub + local PyTorch starter kit
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: torch
+
+# myproj — minimal Colab + GitHub + local PyTorch kit
+
+## Local
+python -m venv .venv
+.venv\Scripts\activate
+pip install -e .
+python main.py
+
+## Colab
+!pip install git+https://github.com/<USER>/<REPO>.git
+from myproj.tiny_train import run_demo
+run_demo()

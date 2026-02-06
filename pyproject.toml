@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "myproj"
+version = "0.1.0"
+description = "Minimal Colab + GitHub + local PyTorch starter kit"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["torch"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
